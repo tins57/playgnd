@@ -38,7 +38,7 @@ if __name__ == "__main__":
                 case 'km/h':
                     units_mul = 1./3600
                 case _:
-                    print('Default unit km/h used')
+                    print('Default unit km/s used')
         print(f"Input: {velocity:.2g} * units multiplier {units_mul:.2g} = {velocity * units_mul:.2g} km/s")
     except Exception as e:
         print(f"Error in input: {e}, try something like 50 km/s")
